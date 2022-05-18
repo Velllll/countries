@@ -60,7 +60,8 @@ const BorderTitle = styled.div`
 `;
 
 const BorderRow = styled.div`
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin: 1.5rem;
 `;
 

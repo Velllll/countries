@@ -6,7 +6,6 @@ import Info from '../components/info'
 
 const Details = () => {
   const {name} = useParams()
-  const navigate = useNavigate()
   const [country, setCountry] = useState({})
 
   useEffect(() => {
